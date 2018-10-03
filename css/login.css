@@ -34,6 +34,7 @@ body{background: #f4f4ef;}
 	border: 1px solid #DBE2E8;
 	box-shadow: 2px 2px 3px 0 rgba(117, 124, 129, 0.12);
 	margin-bottom: 60px;
+	text-align: center;
 }
 .container h2{
 	font-family: 'Open Sans', sans-serif;
@@ -62,10 +63,8 @@ body{background: #f4f4ef;}
     border-radius: 2px;
     color: #2e3d49;
     outline: none;
+    width: 100%;
 }
-.left, .right{width: 48%;}
-.right{left: 3%}
-.full{width: 100%}
 .container input::placeholder{color: #7D97AD}
 .container input:focus{border: 1px solid #F58634}
 .container a{
@@ -85,5 +84,12 @@ body{background: #f4f4ef;}
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: 2px;
+
 }
 .container input[type="submit"]:hover{background: #214369; box-shadow: 3px 3px 18px 0px rgba(0,0,0,0.1);}
+.container h3{
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 14px;
+	font-size: 13pt;
+	font-weight: 600;
+}

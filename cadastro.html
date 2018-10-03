@@ -1,45 +1,29 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="css/cadastro.css">
-		<title>Cadastro - SITADS</title>
-	</head>
-	<body>
-		 <div class="container">
-		 	<h2>Cadastro SiTADS</h2>
-		 	<form>
-		 		<div>
-		 			<input type="text" name="nome" required="" autocomplete="off">
-		 			<label>Nome</label>
-		 		</div>
-		 		<div>
-		 			<input type="text" name="sobrenome" required="" autocomplete="off">
-		 			<label>Sobrenome</label>
-		 		</div>
-		 		<div>
-		 			<input type="text" name="cpf" required="" autocomplete="off">
-		 			<label>CPF</label>
-		 		</div>
-		 		<div>
-		 			<input type="text" name="matricula" required="" autocomplete="off">
-		 			<label>Matrícula</label>
-		 		</div>
-		 		<div>
-		 			<input type="email" name="email" required="" autocomplete="off">
-		 			<label>Email</label>
-		 		</div>
-		 		<div>
-		 			<input type="password" name="senha" required="" autocomplete="off">
-		 			<label>Senha</label>
-		 		</div>
-		 		<div>
-		 			<input type="password" name="conSenha" required="" autocomplete="off">
-		 			<label>Confirmar senha</label>
-		 		</div>
-		 		<input type="submit" value="Cadastrar">
-		 	</form>
-		 </div>
-		
-	</body>
+<head>
+	<title>Criar conta - SITADS</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/cadastro.css">
+	<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
+</head>
+<body>
+	<div class="header">
+		<img src="img/logo.png">
+		<h1>I SITADS</h1>
+	</div>
+	<div class="container">
+		<h2>Crie sua conta</h2>
+		<p>Sua conta é seu portal de acesso a tudo no SiTADS: Minicursos, cronograma do evento, submissão de trabalhos e muito mais! <a href="login.html"><u>Já possui uma conta? Faça o login!</u></a></p>
+		<form method="POST" action="cadastro.php">
+			<input class="left" type="text" name="nome" autocomplete="off" placeholder="Nome*" required="">
+			<input class="right" type="text" name="sobrenome" autocomplete="off" placeholder="Sobrenome*" required="">
+			<input class="full" type="text" name="cpf" autocomplete="off" placeholder="CPF, apenas números*" required="">
+			<input class="full" type="email" name="email" autocomplete="off" placeholder="Email*" required="">
+			<input class="left" type="password" name="senha" autocomplete="off" placeholder="Senha*" required="">
+			<input class="right" type="password" name="conSenha" autocomplete="off" placeholder="Confirmar senha*" required="">
+			<input class="" type="submit" name="" value="Criar conta">
+		</form>
+	</div>
+</body>
 </html>
