@@ -14,7 +14,7 @@
 	</div>
 	<div class="side_menu">
 		<div class="user_info">
-			<img src="../img/user.png">
+			<img src="../media/user.png">
 			<h2>Letícia <br/><span>Beatriz</span></h2>
 		</div>
 		<ul>
@@ -29,7 +29,7 @@
 	</div>
 	<div class="main">
 		<div class="main_info">
-			<img src="../img/file.png">
+			<img src="../media/file.png">
 			<h2>Submissão de artigos</h2>
 		</div>
 		<div class="main_content">
