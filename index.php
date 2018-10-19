@@ -8,7 +8,6 @@
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,500" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700" rel="stylesheet">
 		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/cowntdown.js"></script>
 		<script type="text/javascript" src="js/map.js"></script>
 
 		<script type="text/javascript">
@@ -142,12 +141,11 @@
 				$('#loadingMask').hide();
 			});
 		</script>
+
 	</head>
 
 	<body>
-
 		<div id="loadingMask"><div class="loader"></div></div>
-
 		<nav id="menu">
 			<span>
 				<img id="lo_wi" src="media/img/logo_white.png">
@@ -161,7 +159,6 @@
 				</ul>
 			</span>
 		</nav>
-
 		<header>
 			<span>
 				<img src="media/img/logo_media.png">
@@ -181,7 +178,6 @@
 				</table>
 			</span>
 		</header>
-
 		<section class="about">
 			<div class="data_hora">
 				<div>
@@ -199,7 +195,6 @@
 				<p>O SiTADS, IV encontro de informática do IFRN Campus Nova Cruz, tem por objetivo fomentar a T.I. na região, apresentar e discutir o surgimento das novas tecnologias em Analise e Desenvolvimento de Sistemas, contando com a apresentação de palestras, mesas redondas, minicursos, entre outros assuntos relevantes a atuação em TI. Este ano o evento contará com dois subeventos: <span id="moext">MOEXT</span> e <span id="mopesq">MOPESQ</span>. O evento acontecerá nos dias 20 e 21 de novembro de 2018, nas dependências do Campus IFRN Nova Cruz/RN. As inscrições individuais estarão disponíveis em breve. Fique atendo!</p>
 			</span>
 		</section>
-
 		<section class="mopext">
 			<span>
 				<h2 id="detail">__</h2>
@@ -207,7 +202,6 @@
 				<p>A I Mostra de pesquisa e extensão em TI do IFRN - Campus Nova Cruz têm como objetivo fortalecer e divulgar as ações de Pesquisa e Extensão  desenvolvidas na área de TI, a medida em que partilha a reflexão das experiências desenvolvidas no campus Nova Cruz. É um espaço de apresentação dos projetos e programas desenvolvidos, podendo fortalecer ou traçar novos projetos de pesquisa e extensão a serem implementadas pelos docentes e discentes da área tecnológica do IFRN campus Nova Cruz.</p>
 			</span>
 		</section>
-
 		<section class="schedule">
 			<div class="title_sch">
 				<h2 id="detail">__</h2>
@@ -243,7 +237,6 @@
 					<p><span>Em Breve: Lista e cadastramento</span></p>
 				</div>
 			</div>
-
 			<div class="sch_wrap" id="sch_d2">
 				<div class="sch_item">
 					<p><img src="media/img/clock_gray.png">08:00h - 12:00h</p>
@@ -275,15 +268,12 @@
 					<h2>Encerramento</h2>
 				</div>
 			</div>
-
 		</section>
-
 		<section class="map">
 			<iframe 
-			src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.402603933604!2d-35.44712958563709!3d-6.470577765065606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ad8e45582610c5%3A0x93c23ac1dcf801d7!2sInstituto+Federal+de+Educa%C3%A7%C3%A3o%2C+Ci%C3%AAncia+e+Tecnologia+Rio+Grande+do+Norte%2C+Campus+Nova+Cruz!5e0!3m2!1spt-BR!2sbr!4v1539462111504" frameborder="0" style="border:0" allowfullscreen>	
-		</iframe>
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.402603933604!2d-35.44712958563709!3d-6.470577765065606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ad8e45582610c5%3A0x93c23ac1dcf801d7!2sInstituto+Federal+de+Educa%C3%A7%C3%A3o%2C+Ci%C3%AAncia+e+Tecnologia+Rio+Grande+do+Norte%2C+Campus+Nova+Cruz!5e0!3m2!1spt-BR!2sbr!4v1539462111504" frameborder="0" style="border:0" allowfullscreen>	
+			</iframe>
 		</section>
-
 		<section class="pre_footer">
 			<span>
 				<div class="contact">
@@ -297,7 +287,6 @@
 				</div>
 			</span>
 		</section>
-
 		<footer>
 			<p>Todos os direitos reservatos. Template by Letícia Beatriz ©. Powered by IFRN</p>
 			<span>

@@ -43,12 +43,6 @@ class Inscrito
 
 	}
 
-	public function validarEmail(){
-
-		
-
-	}
-
 	private function validarEmail(){
 
 		
