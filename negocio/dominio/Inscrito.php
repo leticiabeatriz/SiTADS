@@ -9,7 +9,7 @@ class Inscrito
 	public $email;
 	public $senha;
 	public $tipo;
-	public $errosLogin = array();
+	
 
 
 	public function pegarDados(){

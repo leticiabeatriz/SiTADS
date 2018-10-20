@@ -1,26 +1,26 @@
 <?php
+
 class DBMySQL {
-	
-	protected static $connection;
+	protected static $connection;	
 	
 	public function connect(){
 	
-		if(!isset($this->connection)){
+		if(!isset(self::$connection)){
 		
 			$hostname = "localhost";	
-			$username = "root";
-			$password = "";
-			$database = "sitads";
+			$username = "einfonc";
+			$password = "5syUf6gmye8qNx";
+			$database = "einfonc";
 			
-			$this->connection = mysqli_connect($hostname, $username, $password, $database);
+			self::$connection = mysqli_connect($hostname, $username, $password, $database);
 			
 		}
 		
-		if($this->connection === false){
+		if(self::$connection === false){
 			return false;
 		}
 		
-		return $this->connection;
+		return self::$connection;
 	}
 	
 	public function query($query){
@@ -35,7 +35,6 @@ class DBMySQL {
 	}
 	
 	public function select($query){
-		
 		$rows = array();
 		$result = $this->query($query);
 		if($result === false) {
@@ -52,7 +51,8 @@ class DBMySQL {
 	}
 	
 	public function printError(){
-		echo "Error" . $connection->error;
+		echo "Error" . self::$connection->error;
 	}
 }
- ?>
+
+?>

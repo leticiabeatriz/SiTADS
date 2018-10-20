@@ -161,7 +161,7 @@
 		</nav>
 		<header>
 			<span>
-				<img src="media/img/logo_media.png">
+				<img src="media/img/logo_media_white.png">
 				<table>
 					<tr class="valor">
 						<td id="pdia"></td>

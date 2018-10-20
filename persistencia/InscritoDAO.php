@@ -12,7 +12,7 @@ class InscritoDAO extends DBMySQL {
 
 	
 
-	public function inserir($cliente){	
+	public function inserir($Inscrito){	
 		$this->query("INSERT INTO inscritos (nome, sobrenome, cpf, email, senha, tipo) VALUES ('".$inscrito->nome."','".$inscrito->cpf."');" );
 	}
 
